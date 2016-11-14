@@ -1,5 +1,5 @@
 #!/bin/bash
-echo '' | sudo -S ssh -vv -o StrictHostKeyChecking=no ec2-user@54.183.27.114 <<EOF
+sudo ssh -vv -o StrictHostKeyChecking=no ec2-user@54.183.27.114 <<EOF
  cd ~/indiv-database
  git pull
  sudo npm install
