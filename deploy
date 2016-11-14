@@ -1,5 +1,5 @@
 #!/bin/bash
-ssh graphql-server <<EOF
+ssh -F ~/.ssh/config graphql-server <<EOF
  cd ~/indiv-database
  git pull
  sudo npm install
