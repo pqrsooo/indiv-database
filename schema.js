@@ -12,7 +12,7 @@ var GraphQLSchema = graphql.GraphQLSchema;
 var dbConfig = {
   "USER": "admin",
   "PASS": "80fACy3wvi",
-  "HOST": "ec2-54-183-63-228.us-west-1.compute.amazonaws.com",
+  "HOST": "52.53.236.85",
   "PORT": "27017",
   "DATABASE": "main"
 };
