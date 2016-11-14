@@ -3,7 +3,7 @@ var Schema = require('./schema');
 var graphQLHTTP = require('express-graphql');
 
 var app = express();
-var port = process.env.PORT || 8080;
+var port = 8080;
 
 app.use('/', graphQLHTTP({
   schema: Schema,
