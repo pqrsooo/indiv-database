@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo su
 ssh -vv -o StrictHostKeyChecking=no ec2-user@54.183.27.114 <<EOF
  cd ~/indiv-database
  git pull
