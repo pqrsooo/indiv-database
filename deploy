@@ -1,5 +1,5 @@
 #!/bin/bash
-ssh ec2-user@54.183.27.114 <<EOF
+ssh -vv ec2-user@54.183.27.114 <<EOF
  cd ~/indiv-database
  git pull
  sudo npm install
