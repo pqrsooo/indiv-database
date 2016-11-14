@@ -1,4 +1,5 @@
 # GraphQL Server
+[![Build Status](http://54.67.109.20:8080/buildStatus/icon?job=graphql-server)](http://54.67.109.20:8080/job/graphql-server/)
 
 This is a GraphQL server endpoint to fetch and update data from/to Mongo database.
 
